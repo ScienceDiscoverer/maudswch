@@ -14,3 +14,5 @@ So, I combined solutions found in multiple other programs and ended up with, as 
 * __Bonus feature:__ you can change sound volume level of active device by hovering mouse over the <img src="readme/maudswch_tray_ico.png"> and rotating the mouse wheel!
 * __Bonus feature:__ you can mute/unmute active device by long-pressing Middle Mouse Button over the <img src="readme/maudswch_tray_ico.png">!
 * Uses miniscule amount of RAM and only uses tiny amount of CPU when you move mouse over the Taskbar, otherwise uses no CPU at all.
+
+Behind the scenes, it uses specific local mouse hook set on the Taskbar's thread and Low Lever Keyboard hook for hotkey feature. Note: by default, hotkey is disabled, so LL Keyboard Hook is set only when you enable it.
