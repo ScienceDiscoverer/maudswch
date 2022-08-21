@@ -1,2 +1,1 @@
-# maudswch
-Micro Audio Switcher for Windows
+# Micro Audio Switcher
